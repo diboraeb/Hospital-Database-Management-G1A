@@ -1,1 +1,2 @@
 # Hospital-Database-Management-G1A
+This project addresses the data management challenges of a mid-to-large-scale hospital that currently relies on manual paper-based processes and disconnected spreadsheets. We designed and implemented an integrated database system that centralizes patient records, appointment scheduling, inpatient admissions, medical records, prescriptions, laboratory orders, and billing — demonstrating both relational (MySQL) and document-oriented (MongoDB) database approaches.
