@@ -9,9 +9,9 @@ phone VARCHAR(20)
  );
 
 CREATE TABLE Doctor(
-doctor_id INT AUTO_INCREMENT PRIMARY KEY, first_name VARCHAR(50), 
-last_name VARCHAR(50), 
-specialization VARCHAR(100), 
+doctor_id INT AUTO_INCREMENT PRIMARY KEY, first_name VARCHAR(50) NOT NULL, 
+last_name VARCHAR(50) NOT NULL, 
+specialization VARCHAR(100) NOT NULL, 
 phone VARCHAR(20) UNIQUE, 
 email VARCHAR(100) UNIQUE,  
 dept_id INT ,
@@ -20,8 +20,8 @@ FOREIGN KEY(dept_id) REFERENCES Department(dept_id)
  );
 
 CREATE TABLE Patient(
-patient_id INT AUTO_INCREMENT PRIMARY KEY, first_name VARCHAR(50), 
-last_name VARCHAR(50), 
+patient_id INT AUTO_INCREMENT PRIMARY KEY, first_name VARCHAR(50) NOT NULL, 
+last_name VARCHAR(50) NOT NULL, 
 gender ENUM('M','F'), 
 dob DATE, 
 phone VARCHAR(20) UNIQUE, 
