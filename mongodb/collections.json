@@ -1,0 +1,110 @@
+[
+  {
+    "collection":"patients",
+    "data":[
+      {
+        "patient_id": 101,
+        "first_name": "Abebe",
+        "last_name": "Bikila",
+        "gender": "M",
+        "dob": "1985-10-20",
+        "blood_type": "A+",
+        "contact": {
+          "phone": "+251911240369",
+          "email": "abebe.bikila@email.com",
+          "address": "BOle Sub-city, Addis Ababa"
+        },
+      "emergency_contacct": {
+        "name":"Tisgist Bikila",
+        "phone": "+25122001122",
+      },
+        "medical_cases": [
+          {
+            "case_id": 5001,
+            "diagnosis: "Severe Pnemonia",
+            "treatment_plan": "Intravenous antibiotics and oxygen therapy",
+            "start_date": "2026-05-10",
+            "status": "Active",
+            "doctor_id":201,
+            "admissions": [
+              {
+                "admission_id":901,
+                "room_no": "W1-R05",
+                "ward_type": "ICU",
+                "admission_date": "2026-05-10",
+                "discharge_date": null,
+              }
+            ],
+            "lab_results":[
+              {
+                "test_name": "Chest X-ray",
+                "value": 'Consolidation in lower right lobe",
+                "is_normal": false,
+                "date": "2026-05-11
+              }
+            ],
+            "prescriptions":[
+              {
+                "med_name":"Ceftriaxone",
+                "dosage":"1g",
+                "frequency": "Twice daily",
+                "duration": "7 days",
+              }
+            ]
+          }
+        ],
+        "billings": [
+          {
+            "payment_id":7001,
+            "amount":5400.00,
+            "date": "2026-05-12",
+            "method": "CBE Birr",
+            "status": "Paid"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "collection":"staff",
+    "data": [
+      {
+        "staff_id": 201,
+        "role": "Doctor",
+        "name": {"first": "Kaleb", "last": "Tadesse"},
+        "specialization": "Internal Medicine",
+        "department": "Pulmonology",
+        "contact": { "phone": "+251941536647","email":"dr.kaleb@hospital.et" }
+      },
+      {
+        "staff_id":301,
+        "role": "Nurse",
+        "name": { "first": "Selam", "last": "Tesfaye" },
+        "shift": "Night",
+        "department": "Emergency"
+      }
+    ]
+  },
+  {
+    "collection": "inventory",
+    "data": [
+      {
+        "medication_id": 401,
+        "name": "Amoxicillin",
+        "dosage_form": "Capsule",
+        "stock_qty": 500,
+        "unit_cost": 15.50
+      },
+      {
+        "medicaiton_id":402,
+        "name": "Paracetamol",
+        "dosage_form": "Tablet",
+        "stock_qty": 1200,
+        "unit_cost": 12.00,
+      }
+    ]
+  }
+]
+
+        
+          
