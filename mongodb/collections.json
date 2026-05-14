@@ -12,16 +12,16 @@
         "contact": {
           "phone": "+251911240369",
           "email": "abebe.bikila@email.com",
-          "address": "BOle Sub-city, Addis Ababa"
+          "address": "Bole Sub-city, Addis Ababa"
         },
       "emergency_contact": {
-        "name":"Tisgist Bikila",
-        "phone": "+25122001122",
+        "name":"Tigist Bikila",
+        "phone": "+25122001122"
       },
         "medical_cases": [
           {
             "case_id": 5001,
-            "diagnosis: "Severe Pneumonia",
+            "diagnosis": "Severe Pneumonia",
             "treatment_plan": "Intravenous antibiotics and oxygen therapy",
             "start_date": "2026-05-10",
             "status": "Active",
@@ -32,23 +32,23 @@
                 "room_no": "W1-R05",
                 "ward_type": "ICU",
                 "admission_date": "2026-05-10",
-                "discharge_date": null,
+                "discharge_date": null
               }
             ],
-            "lab_results":[
+            "lab_results": [
               {
                 "test_name": "Chest X-ray",
-                "value": 'Consolidation on the lower right lobe",
+                "value": "Consolidation on the lower right lobe",
                 "is_normal": false,
                 "date": "2026-05-11"
               }
             ],
-            "prescriptions":[
+            "prescriptions": [
               {
                 "med_name":"Ceftriaxone",
                 "dosage":"1g",
                 "frequency": "Twice daily",
-                "duration": "7 days",
+                "duration": "7 days"
               }
             ]
           }
@@ -104,7 +104,4 @@
       }
     ]
   }
-]
-
-        
-          
+]         
