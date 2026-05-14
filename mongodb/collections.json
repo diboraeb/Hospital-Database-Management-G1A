@@ -21,7 +21,7 @@
         "medical_cases": [
           {
             "case_id": 5001,
-            "diagnosis: "Severe Pnemonia",
+            "diagnosis: "Severe Pneumonia",
             "treatment_plan": "Intravenous antibiotics and oxygen therapy",
             "start_date": "2026-05-10",
             "status": "Active",
@@ -38,7 +38,7 @@
             "lab_results":[
               {
                 "test_name": "Chest X-ray",
-                "value": 'Consolidation in lower right lobe",
+                "value": 'Consolidation on the lower right lobe",
                 "is_normal": false,
                 "date": "2026-05-11
               }
