@@ -40,7 +40,7 @@
                 "test_name": "Chest X-ray",
                 "value": 'Consolidation on the lower right lobe",
                 "is_normal": false,
-                "date": "2026-05-11
+                "date": "2026-05-11"
               }
             ],
             "prescriptions":[
@@ -100,7 +100,7 @@
         "name": "Paracetamol",
         "dosage_form": "Tablet",
         "stock_qty": 1200,
-        "unit_cost": 12.00,
+        "unit_cost": 12.00
       }
     ]
   }
