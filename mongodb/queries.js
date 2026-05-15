@@ -21,8 +21,8 @@ db.patients.find(
   {
     "first_name": 1,
     "last_name": 1,
-    "vitals.emergency_contact: 1,
-    "vitals.emergency_phone: 1
+    "vitals.emergency_contact": 1,
+    "vitals.emergency_phone": 1
   }
 );
   
