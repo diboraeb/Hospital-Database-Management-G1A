@@ -60,6 +60,13 @@
             "date": "2026-05-12",
             "method": "CBE Birr",
             "status": "Paid"
+          },
+          {
+            "payment_id": 7002,
+            "amount": 1500.00,
+            "date": "2026-05-15",
+            "method": "Cash",
+            "status": "Unpaid"
           }
         ]
       }
