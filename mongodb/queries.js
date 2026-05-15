@@ -1,8 +1,7 @@
 db.createCollection("patients");
-db.createCollection("doctors");
-db.createCollection("appointments");
-db.createCollection("lab_orders");
-db.createCollection("payments");
+db.createCollection("staff");
+db.createCollection("inventory");
+
 print("Hospital Database Collections Initalized Successfully.");
 db.staff.find({
   "role": "Nurse",
