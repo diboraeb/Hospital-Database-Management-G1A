@@ -1,4 +1,3 @@
-
 INSERT INTO Department(dept_name, location, phone) VALUES
 ('Cardiology', 'Building A', '0911000001'),
 ('Neurology', 'Building B', '0911000002'),
