@@ -15,16 +15,16 @@ db.staff.find({
 db.patients.aggregate([
   { $unwind: "$billings" },
   { $match: { "billings.status": "Unpaid" } },
-  { $group: { _id: null, totalOwed: { $sum: "billings.amount"} } }
+  { $group: { _id: null, totalOwed: { $sum: "$billings.amount"} } }
   ]);
 
 //Query C:Decrement Inventory Stock when Medication is Dispensed
 db.inventory.updateOne(
-  { "med_name": "Amoxicillin" },
+  { "name": "Amoxicillin" },
   { $inc: { "stock_qty": -1 } }
   );
 print("Stock updated. Verifying new stock:");
-db.inventory.findOne({"med_name": "Amoxicillin"}, { "stock_qty": 1 });
+db.inventory.findOne({"name": "Amoxicillin"}, { "stock_qty": 1 });
 
 //Query D:Get patient emergency contact details
 db.patients.find(
