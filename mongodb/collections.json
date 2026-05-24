@@ -78,7 +78,8 @@
       {
         "staff_id": 201,
         "role": "Doctor",
-        "name": {"first": "Kaleb", "last": "Tadesse"},
+        "first_name": "Kaleb",
+        "last_name" : "Tadesse",
         "specialization": "Internal Medicine",
         "department": "Pulmonology",
         "contact": { "phone": "+251941536647","email":"dr.kaleb@hospital.et" }
@@ -86,7 +87,8 @@
       {
         "staff_id":301,
         "role": "Nurse",
-        "name": { "first": "Selam", "last": "Tesfaye" },
+        "first_name": "Selam",
+        "last_name": "Tesfaye",
         "shift": "Night",
         "department": "Emergency"
       }
@@ -103,7 +105,7 @@
         "unit_cost": 15.50
       },
       {
-        "medicaiton_id":402,
+        "medication_id":402,
         "name": "Paracetamol",
         "dosage_form": "Tablet",
         "stock_qty": 1200,
