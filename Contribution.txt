@@ -1,9 +1,9 @@
 
-1.Abubeker Mohammed Yasin-
+1.Abubeker Mohammed Yasin-Annex
 2.Abigiya Yonas (Database designer)-er diagram, entity identification , relationships summary
 3.Amanuel Alemu(Database designer)-Logical schema
 4.Abigiya(Database designer)-normalization ,input/output format,reports
 5.Akleshiya Abrham(implementation head)-my sql
 6.Abel Birhane(implementation head)-mongo db 
 7.Dibora Endris(project coordinator)
-8.Adil Sultan-
+8.Adil Sultan-Questioneries 
